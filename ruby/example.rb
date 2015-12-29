@@ -1,5 +1,5 @@
 class Vector
-    attr_accessor :x,:y
+    attr_accessor :x, :y
 
     def initialize (x = 0, y = 0)
         @x = x
