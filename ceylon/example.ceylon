@@ -1,32 +1,31 @@
-class Vector(Integer nx, Integer ny)
-	satisfies Numeric<Vector> {
-	shared Integer x = nx;
-	shared Integer y = ny;
-	
-	// Overrides + (a + b).
-	shared actual Vector plus(Vector other) {
-		return Vector(x + other.x, y + other.y);
-	}
-	
-	// Overrides - (a - b).
-	shared actual Vector minus(Vector other) {
-		return Vector(x - other.x, y - other.y);
-	}
-	
-	// Overrides / (a / b).
-	shared actual Vector divided(Vector other) {
-        return Vector(0, 0);
-	}
-	
-	// Overrides * (a * b).
-	shared actual Vector times(Vector other) {
-		return Vector(0, 0);
-	}
-    
-	// Overrides negation -a.
-    shared actual Vector negated {
-        return Vector(-x, -y);
-    }
+class Vector(Integer nx, Integer ny) satisfies Numeric<Vector> {
+  shared Integer x = nx;
+  shared Integer y = ny;
+
+  // Overrides + (a + b).
+  shared actual Vector plus(Vector other) {
+    return Vector(x + other.x, y + other.y);
+  }
+
+  // Overrides - (a - b).
+  shared actual Vector minus(Vector other) {
+    return Vector(x - other.x, y - other.y);
+  }
+
+  // Overrides / (a / b).
+  shared actual Vector divided(Vector other) {
+    return Vector(0, 0);
+  }
+
+  // Overrides * (a * b).
+  shared actual Vector times(Vector other) {
+    return Vector(0, 0);
+  }
+
+  // Overrides negation -a.
+  shared actual Vector negated {
+    return Vector(-x, -y);
+  }
 }
 
 value v1 = Vector(4, 6);
