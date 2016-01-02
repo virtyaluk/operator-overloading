@@ -1,20 +1,20 @@
 class Vector
-    attr_accessor :x, :y
+  attr_accessor :x, :y
 
-    def initialize (x = 0, y = 0)
-        @x = x
-        @y = y
-    end
+  def initialize (x = 0, y = 0)
+    @x = x
+    @y = y
+  end
 
-    # Overrides + (a + b).
-    def +(other)
-        return Vector.new(@x + other.x, @y + other.y)
-    end
+  # Overrides + (a + b).
+  def +(other)
+    return Vector.new(@x + other.x, @y + other.y)
+  end
 
-    # Overrides - (a - b).
-    def -(other)
-        return Vector.new(@x - other.x, @y - other.y)
-    end
+  # Overrides - (a - b).
+  def -(other)
+    return Vector.new(@x - other.x, @y - other.y)
+  end
 end
 
 v1 = Vector.new(3, 4)

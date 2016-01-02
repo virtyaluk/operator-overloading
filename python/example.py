@@ -1,15 +1,15 @@
 class Vector:
-    def __init__(self, x = 0, y = 0):
-        self.x = x
-        self.y = y
+  def __init__(self, x = 0, y = 0):
+    self.x = x
+    self.y = y
 
-    # Overrides + (a + b).
-    def __add__(self, other):
-        return Vector(self.x + other.x, self.y + other.y);
+  # Overrides + (a + b).
+  def __add__(self, other):
+    return Vector(self.x + other.x, self.y + other.y);
 
-    # Overrides - (a - b).
-    def __sub__(self, other):
-        return Vector(self.x - other.x, self.y - other.y);
+  # Overrides - (a - b).
+  def __sub__(self, other):
+    return Vector(self.x - other.x, self.y - other.y);
 
 v1 = Vector(2, 3)
 v2 = Vector(4, 6)
