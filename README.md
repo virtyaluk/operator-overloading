@@ -13,6 +13,10 @@ The repo contains a set of folders, each one of those represents specific progra
 ## Examples
 You may find source code with examples of operator overloading in the specific language under its own folder in the root of the repo. The source code may be successfully compiled and executed using available language tools. If there are any additional actions required to compile the example, these would be mentioned in the documentation.
 
+#### The task
+
+As you may know, there's no programming language that allow users to perform, for example, arithmetic operations between custom data structs. The main idea is to create a custom struct and implement the ability to perform addition and subtraction between instances of that struct.
+
 ## Catalog
 
 - [C#](https://github.com/virtyaluk/operator-overloading/tree/master/csharp)
@@ -31,6 +35,17 @@ You may find source code with examples of operator overloading in the specific l
 - [Visual Basic .NET](https://github.com/virtyaluk/operator-overloading/tree/master/vb.net)
 
 _**NOTE:** There are few other languages that have a support of operator overloading but not included in the list either due to lack of documentation or unavailability of compiling tools. Some of them: Ada, Delphi, and MATLAB._
+
+## Contributing
+
+We're happy for any contribution in any form, but if you're making more than one major change it would be super cool of you to make a separate pull request for each one so that someone can review them more effectively and/or individually.
+
+### Style Guidelines
+
+- __Keep lines under 80 chars__
+- __Prefer example to exposition__
+- __Eschew surplusage__
+- __Use UTF-8__
 
 ## License
 
