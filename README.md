@@ -4,20 +4,20 @@
 >
 > -- [Operator overloading](https://en.wikipedia.org/wiki/Operator_overloading), Wikipedia.
 
-## Motivation
+## :checkered_flag: Motivation
 
 The idea behind opening this repo is to demonstrate operator overloading in different programming languages.
 
 The repo contains a set of folders, each one of those represents specific programming language with two files in it: the source code to proof a concept of operator overloading in the language and the documentation that breaks it down.
 
-## Examples
+## :page_facing_up: Examples
 You may find source code with examples of operator overloading in the specific language under its own folder in the root of the repo. The source code may be successfully compiled and executed using available language tools. If there are any additional actions required to compile the example, these would be mentioned in the documentation.
 
 #### The task
 
 As you may know, there's no programming language that allow users to perform, for example, arithmetic operations between custom data structs. The main idea is to create a custom struct and implement the ability to perform addition and subtraction between instances of that struct.
 
-## Catalog
+## :clipboard: Catalog
 
 - [C#](https://github.com/virtyaluk/operator-overloading/tree/master/csharp)
 - [C++](https://github.com/virtyaluk/operator-overloading/tree/master/cpp)
@@ -36,7 +36,7 @@ As you may know, there's no programming language that allow users to perform, fo
 
 _**NOTE:** There are few other languages that have a support of operator overloading but not included in the list either due to lack of documentation or unavailability of compiling tools. Some of them: Ada, Delphi, and MATLAB._
 
-## Contributing
+## :pill: Contributing
 
 We're happy for any contribution in any form, but if you're making more than one major change it would be super cool of you to make a separate pull request for each one so that someone can review them more effectively and/or individually.
 
@@ -47,8 +47,14 @@ We're happy for any contribution in any form, but if you're making more than one
 - __Eschew surplusage__
 - __Use UTF-8__
 
-## License
+## :green_book: License
 
-All content in is licensed under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) unless otherwise stated.
+[Licensed under CC-BY-SA 3.0 license.](http://creativecommons.org/licenses/by-sa/3.0/)
 
-© [Bohdan Shtepan](https://github.com/virtyaluk)
+Copyright (c) 2016 Bohdan Shtepan
+
+---
+
+> [modern-dev.com](http://modern-dev.com) &nbsp;&middot;&nbsp;
+> GitHub [@virtyaluk](https://github.com/virtyaluk) &nbsp;&middot;&nbsp;
+> Twitter [@virtyaluk](https://twitter.com/virtyaluk)
